@@ -5,9 +5,9 @@ void max_heapify(int *array, size_t size, size_t base, size_t root);
 void heap_sort(int *array, size_t size);
 
 /**
- * swap_ints - Swap the position of two integers in an array.
- * @a: The first integer to be swap.
- * @b: The second integer to be swap.
+ * swap_ints - Swap position of two intgrs in a array.
+ * @a: first integer to be swapped.
+ * @b: second integer to be swapped.
  */
 void swap_ints(int *a, int *b)
 {
@@ -19,11 +19,11 @@ void swap_ints(int *a, int *b)
 }
 
 /**
- * max_heapify - Tranform a binary tree into a complete binary heap.
- * @array: An array of integers represented as a binary tree.
- * @size: The size of the array/tree.
- * @base: The index of the base row of the tree.
- * @root: The root node of the binary tree.
+ * max_heapify - Tranforms a binary tree into a complete binary heap.
+ * @array: An array of intgrs rep as a binary tree.
+ * @size: size of the array/tree.
+ * @base: index of the base row of the tree.
+ * @root: root node of the binary tree.
  */
 void max_heapify(int *array, size_t size, size_t base, size_t root)
 {
@@ -47,13 +47,13 @@ void max_heapify(int *array, size_t size, size_t base, size_t root)
 }
 
 /**
- * heap_sort - Sort an array of integers in ascending
- *             manner through the heap sort algorithm.
- * @array: An array of integers.
+ * heap_sort - Sort an array of intgrs in ascending
+ *             orderer through the heap sort algorithm.
+ * @array: An array of intgrs.
  * @size: The size of the array.
  *
  * Description: Implements the sift-down heap sort
- * algorithm. Prints the array after each swap.
+ * algorithm. Array is printed after each swap.
  */
 void heap_sort(int *array, size_t size)
 {

@@ -3,7 +3,7 @@
 
 
 /**
- * print_array - Generates a list of integers
+ * print_array - Generates a list of intgrs
  *
  * @array: The array to be printed
  * @size: Number of elements in @array

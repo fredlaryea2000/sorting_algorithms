@@ -3,7 +3,7 @@
 
 
 /**
- * print_list - Generates a list of integers
+ * print_list - Generates a list of intgrs
  *
  * @list: The list to be printed
  */

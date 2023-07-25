@@ -2,9 +2,9 @@
 
 
 /**
- * swap_ints - Interchange two integers in an array.
- * @a: The first integer to interchange.
- * @b: The second integer to interchange.
+ * swap_ints - Interchanges two intgrs in a array.
+ * @a: First integer to be interchange.
+ * @b: Second integer to be interchange.
  */
 void swap_ints(int *a, int *b)
 {
@@ -16,12 +16,12 @@ void swap_ints(int *a, int *b)
 }
 
 /**
- * selection_sort - Sort an array of integers follwing the order
+ * selection_sort - Sort  array of intgrs following the ordr
  *                  using the selection sort algorithm.
- * @array: An array of integers.
+ * @array: Array of intgrs.
  * @size: The array size.
  *
- * Description: Prints the array after each interchange.
+ * Desc: Array is printed after each interchange.
  */
 void selection_sort(int *array, size_t size)
 {

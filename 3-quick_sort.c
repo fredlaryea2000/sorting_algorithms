@@ -7,9 +7,9 @@ void quick_sort(int *array, size_t size);
 
 
 /**
- * swap_ints - interchange two integers in an array.
- * @a: The first integer to interchange.
- * @b: The second integer to interchange.
+ * swap_ints - two intgrs interchanges in a array.
+ * @a: first integer to interchange.
+ * @b: second integer to interchange.
  */
 void swap_ints(int *a, int *b)
 {
@@ -22,14 +22,14 @@ void swap_ints(int *a, int *b)
 
 
 /**
- * lomuto_partition - Order a subset of an array of integers in following
- *                    the lomuto partition scheme (last element as pivot).
- * @array: The integers array.
- * @size: The array size.
- * @left: The starting index of the subset to order.
- * @right: The ending index of the subset to order.
+ * lomuto_partition - Order subset of an array of intgrs in following
+ *                    the lomuto partition scheme.
+ * @array: Array of integers.
+ * @size: Array size.
+ * @left: Starting index of the subset to order.
+ * @right: Ending indx of the subset to order.
  *
- * Return: The final partition index.
+ * Return: Index of final partition.
  */
 int lomuto_partition(int *array, size_t size, int left, int right)
 {
@@ -61,12 +61,12 @@ int lomuto_partition(int *array, size_t size, int left, int right)
 
 /**
  * lomuto_sort - Recursion is used to implement the quicksort algorithm.
- * @array: An array of integers to sort.
+ * @array: The array of intgrs to sort.
  * @size: The array size.
  * @left: The array partition order's initial index.
  * @right: The ending index of the array partition to order.
  *
- * Description: Uses the Lomuto partition scheme.
+ * Desc: Uses Lomuto partition scheme.
  */
 void lomuto_sort(int *array, size_t size, int left, int right)
 {
@@ -82,13 +82,12 @@ void lomuto_sort(int *array, size_t size, int left, int right)
 
 
 /**
- * quick_sort - Sort an array of integers in ascending
- *              order using the quicksort algorithm.
- * @array: An array of integers.
+ * quick_sort - Sort an aray of intgrs in ascending
+ *              order using the quicksort algor.
+ * @array: Array of intgrs.
  * @size: The array size.
  *
- * Description: Uses the Lomuto partition scheme. Prints
- *              the array after each swap of two elements.
+ * Desc: Uses the Lomuto partition scheme. Array is printed after each swap of two elements.
  */
 void quick_sort(int *array, size_t size)
 {
