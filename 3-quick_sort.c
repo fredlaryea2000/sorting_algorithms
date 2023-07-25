@@ -87,7 +87,7 @@ void lomuto_sort(int *array, size_t size, int left, int right)
  * @array: Array of intgrs.
  * @size: The array size.
  *
- * Desc: Uses the Lomuto partition scheme. Array is printed after each swap of two elements.
+ * Desc: Uses Lomuto partition schem. Array print after each swap of 2 element.
  */
 void quick_sort(int *array, size_t size)
 {
